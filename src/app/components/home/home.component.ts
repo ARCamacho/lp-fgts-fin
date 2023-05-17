@@ -31,7 +31,7 @@ export class HomeComponent {
       const queryParams = this.route.snapshot.queryParams;
       const response = await axios({
         method: 'post',
-        url: 'https://open-api.finanto.io/LandingPages/sdr',
+        url: '',
         headers: {
           'Content-Type': 'application/json',
           'ApiKey': '94ed0f99-e88f-4fe6-ab72-e9d1acbe8400'
